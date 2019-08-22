@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to right, black, gray);
+    padding: 4%;
+    font-family: 'Work Sans', sans-serif;
+}
+.main{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    /* transition: 2ms; */
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    color: darkslategrey;
+}
+
+span{
+    color: maroon;
+    font-size: 75%;
+    font-weight: 100;
+}
+
+.first{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.644)), url("../img/image.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 140%;
+    padding: 4%;
+}
+
+.details{
+    color: white;
+    font-size: 110%;
+}
+
+.details a {
+    color: maroon;
+    font-weight: 600;
+}
+
+.img{
+    margin-top: 30%;
+    margin-bottom: 30%;
+    height: 10rem;
+    border-radius: 50%;
+    border: 2px gray solid;
+
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition:         transform .3s ease-in-out;
+}
+
+.img:hover{
+    border: 2px #5e5b5b solid;
+
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.name{
+    text-align: left;
+    font-size: 150%;
+    color: white;
+}
+
+.second{
+    background-color: white;
+    padding: 4%;
+    /* height: fit-content;  */
+}
+
+.link i{
+    color: gray;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+#dec{
+    color: lightgray;
+}
+
+.visit{
+    transition: transform 0.2s;
+}
+
+.visit:hover, .visit:active{
+    font-size: 1.1rem;
+}
+
+
+
+
